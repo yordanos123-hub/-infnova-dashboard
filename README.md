@@ -1,5 +1,7 @@
 # INFNOVA Applicants Dashboard
 
+🔗 **Live demo:** https://infnova-dashboard-iota.vercel.app
+
 An internship-applicant management dashboard built for the INFNOVA Technologies
 Frontend Internship practical challenge.
 
