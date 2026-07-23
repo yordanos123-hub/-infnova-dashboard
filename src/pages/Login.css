@@ -49,6 +49,13 @@
   padding-right: 42px;
 }
 
+/* Edge/IE add their own built-in "reveal password" eye icon to password
+   fields. That duplicates our custom toggle button, so hide theirs. */
+.login-password-wrapper input::-ms-reveal,
+.login-password-wrapper input::-ms-clear {
+  display: none;
+}
+
 .login-password-toggle {
   position: absolute;
   right: 10px;
