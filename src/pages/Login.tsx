@@ -12,9 +12,6 @@ const Login = () => {
   const [loading, setLoading] = useState(false);
   const navigate = useNavigate();
 
-  // If we were redirected here because a token expired mid-session
-  // (see the 401 interceptor in services/api.ts), show that context
-  // instead of leaving the person wondering why they're back at login.
   useEffect(() => {
     const params = new URLSearchParams(window.location.search);
     if (params.get('sessionExpired')) {
